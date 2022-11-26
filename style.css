@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-container {
+  position: absolute;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.btn-container button {
+  font-size: 1.5rem;
+  padding: 8px 24px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.point {
+  width: 15px;
+  height: 15px;
+  background-color: crimson;
+  border-radius: 50%;
+  position: absolute;
+}
